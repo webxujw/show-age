@@ -1,0 +1,14 @@
+# OSX
+.DS_Store
+
+# IDE
+.idea
+
+# npm
+node_modules
+yarn.lock
+package-lock.json
+
+#other
+.travis.yml
+.github
