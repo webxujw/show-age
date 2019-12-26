@@ -1,0 +1,21 @@
+{
+  "name": "show-age",
+  "version": "0.0.3",
+  "description": "显示年龄的小组件",
+  "main": "/dist/show-age.js",
+  "scripts": {
+    "prod": "webpack --mode=production",
+    "test": "npm run test"
+  },
+  "keywords": [
+    "age",
+    "show"
+  ],
+  "author": "webxujw@163.com",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.8.18",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  }
+}
