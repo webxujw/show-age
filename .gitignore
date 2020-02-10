@@ -1,2 +1,7 @@
-yarn.lock
-package-lock.json
+# OSX
+.DS_Store
+
+# IDE
+.idea
+
+test.js

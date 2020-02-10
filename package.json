@@ -1,7 +1,7 @@
 {
   "name": "show-age",
-  "version": "0.0.7",
-  "description": "显示年龄的小组件",
+  "version": "0.1.0",
+  "description": "根据出生日期显示年龄的小组件",
   "main": "index.js",
   "scripts": {
     "test": ""

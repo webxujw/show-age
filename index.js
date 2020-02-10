@@ -62,11 +62,10 @@ module.exports = function (birthday, options = {}) {
   } else if (obj.year !== 0) {
     str = obj.year + i18n.year
   }
-    if (obj.month > 0 && obj.date > 0) return str + obj.month + i18n.month + obj.date + i18n.days
-    if (obj.date === 0 && obj.month > 0) return str + obj.month + i18n.month
-    if (obj.date > 0 && obj.month === 0) str = str + obj.date + i18n.days
-    if (obj.year === 0 && obj.month === 0 && obj.hour !== 0) {
-      str = str + obj.hour + i18n.hour
+    if (obj.month > 0 ) str += obj.month + i18n.month 
+    if (obj.date > 0 ) str += obj.date + i18n.days
+    if (obj.year === 0 && obj.month === 0 && obj.date === 0 && obj.hour !== 0) {
+      str += obj.hour + i18n.hour
     }
     if (!str) str = '1' + i18n.hour
     return str
